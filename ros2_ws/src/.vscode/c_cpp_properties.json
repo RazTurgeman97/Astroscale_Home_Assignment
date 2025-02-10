@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/install/**/include",
+                "/home/raz/projects/astroscale/**",
+                "/home/raz/projects/astroscale/ros2_ws/**",
+                "/home/raz/projects/astroscale/ros2_ws/src/**",
+                "/home/raz/projects/astroscale/ros2_ws/src/robot_msgs/**",
+                "/home/raz/projects/astroscale/ros2_ws/src/robot_controller/**",
+                "/home/raz/projects/astroscale/ros2_ws/src/robot_controller/include/**",
+                "/home/raz/projects/astroscale/ros2_ws/src/robot_msgs/**",
+                "/home/raz/projects/astroscale/ros2_ws/install/robot_msgs/include/**",
+                "/home/raz/projects/astroscale/ros2_ws/install/robot_msgs/include/**",
+                "/home/raz/projects/astroscale/ros2_ws/install/robot_controller/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/raz/projects/astroscale/ros2_ws/install/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,15 @@
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/ament_index/resource_index/package_run_dependencies/robot_remote
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/ament_index/resource_index/parent_prefix_path/robot_remote
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/environment/ament_prefix_path.sh
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/environment/ament_prefix_path.dsv
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/environment/path.sh
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/environment/path.dsv
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/local_setup.bash
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/local_setup.sh
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/local_setup.zsh
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/local_setup.dsv
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/package.dsv
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/ament_index/resource_index/packages/robot_remote
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/cmake/robot_remoteConfig.cmake
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/cmake/robot_remoteConfig-version.cmake
+/home/raz/projects/astroscale/ros2_ws/install/robot_remote/share/robot_remote/package.xml

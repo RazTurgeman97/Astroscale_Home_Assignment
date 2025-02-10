@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/raz/projects/astroscale/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/astroscale/ros2_ws/build/robot_description -- -j12 -l12
+[0.029s] Invoked command in '/home/raz/projects/astroscale/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/astroscale/ros2_ws/build/robot_description -- -j12 -l12
+[0.032s] Invoking command in '/home/raz/projects/astroscale/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/astroscale/ros2_ws/build/robot_description
+[0.033s] -- Install configuration: ""
+[0.033s] -- Execute custom install script
+[0.034s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/urdf/common_properties.xacro
+[0.034s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/urdf/manipulator.urdf.xacro
+[0.034s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/urdf/robot_gazebo.xacro
+[0.034s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/urdf/robot_ros2_control.xacro
+[0.034s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/launch/display.launch.py
+[0.034s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/launch/gazebo.launch.py
+[0.034s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/rviz/display.rviz
+[0.034s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.034s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.035s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.035s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.035s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+[0.035s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[0.035s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+[0.035s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+[0.035s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[0.036s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[0.037s] -- Symlinking: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/package.dsv
+[0.038s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.038s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.038s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.038s] -- Up-to-date symlink: /home/raz/projects/astroscale/ros2_ws/install/robot_description/share/robot_description/package.xml
+[0.040s] Invoked command in '/home/raz/projects/astroscale/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/astroscale/ros2_ws/build/robot_description

@@ -1,0 +1,1 @@
+/home/raz/projects/astroscale/ros2_ws/build/robot_msgs/rosidl_typesupport_introspection_c/robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

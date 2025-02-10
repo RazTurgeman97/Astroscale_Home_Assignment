@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/raz/projects/astroscale/ros2_ws/build/robot_services/move_service_server" "/home/raz/projects/astroscale/ros2_ws/build/robot_services/move_service_client" "TARGETS" "move_service_server" "move_service_client" "DESTINATION" "lib/robot_services")

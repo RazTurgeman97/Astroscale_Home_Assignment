@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="manipuator">
+
+    <!-- Gazebo Control Plugin -->
+    <gazebo>
+        <plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+            <parameters>$(find robot_controller)/config/robot_controllers.yaml</parameters>
+        </plugin>
+    </gazebo>
+
+</robot>
