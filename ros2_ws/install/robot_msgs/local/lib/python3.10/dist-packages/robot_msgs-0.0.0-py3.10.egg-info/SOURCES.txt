@@ -1,1 +1,8 @@
-/home/raz/projects/astroscale/ros2_ws/build/robot_msgs/ament_cmake_python/robot_msgs/robot_msgs.egg-info/SOURCES.txt
+setup.py
+robot_msgs/__init__.py
+robot_msgs.egg-info/PKG-INFO
+robot_msgs.egg-info/SOURCES.txt
+robot_msgs.egg-info/dependency_links.txt
+robot_msgs.egg-info/top_level.txt
+robot_msgs/srv/__init__.py
+robot_msgs/srv/_move_to_position.py

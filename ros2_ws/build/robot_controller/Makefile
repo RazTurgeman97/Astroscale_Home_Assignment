@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raz/projects/astroscale/ros2_ws/src/robot_controller
+CMAKE_SOURCE_DIR = /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raz/projects/astroscale/ros2_ws/build/robot_controller
+CMAKE_BINARY_DIR = /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raz/projects/astroscale/ros2_ws/build/robot_controller/CMakeFiles /home/raz/projects/astroscale/ros2_ws/build/robot_controller//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/CMakeFiles /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raz/projects/astroscale/ros2_ws/build/robot_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -223,6 +223,43 @@ ament_cmake_python_build_robot_controller_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_robot_controller_egg.dir/build.make CMakeFiles/ament_cmake_python_build_robot_controller_egg.dir/build
 .PHONY : ament_cmake_python_build_robot_controller_egg/fast
 
+#=============================================================================
+# Target rules for targets named slider_control
+
+# Build rule for target.
+slider_control: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 slider_control
+.PHONY : slider_control
+
+# fast build rule for target.
+slider_control/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slider_control.dir/build.make CMakeFiles/slider_control.dir/build
+.PHONY : slider_control/fast
+
+src/slider_control.o: src/slider_control.cpp.o
+.PHONY : src/slider_control.o
+
+# target to build an object file
+src/slider_control.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slider_control.dir/build.make CMakeFiles/slider_control.dir/src/slider_control.cpp.o
+.PHONY : src/slider_control.cpp.o
+
+src/slider_control.i: src/slider_control.cpp.i
+.PHONY : src/slider_control.i
+
+# target to preprocess a source file
+src/slider_control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slider_control.dir/build.make CMakeFiles/slider_control.dir/src/slider_control.cpp.i
+.PHONY : src/slider_control.cpp.i
+
+src/slider_control.s: src/slider_control.cpp.s
+.PHONY : src/slider_control.s
+
+# target to generate assembly for a file
+src/slider_control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/slider_control.dir/build.make CMakeFiles/slider_control.dir/src/slider_control.cpp.s
+.PHONY : src/slider_control.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,6 +277,10 @@ help:
 	@echo "... ament_cmake_python_copy_robot_controller"
 	@echo "... robot_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... slider_control"
+	@echo "... src/slider_control.o"
+	@echo "... src/slider_control.i"
+	@echo "... src/slider_control.s"
 .PHONY : help
 
 

@@ -1,9 +1,0 @@
-/home/raz/projects/astroscale/ros2_ws/build/robot_remote/CMakeFiles/uninstall.dir
-/home/raz/projects/astroscale/ros2_ws/build/robot_remote/CMakeFiles/robot_remote_uninstall.dir
-/home/raz/projects/astroscale/ros2_ws/build/robot_remote/CMakeFiles/test.dir
-/home/raz/projects/astroscale/ros2_ws/build/robot_remote/CMakeFiles/edit_cache.dir
-/home/raz/projects/astroscale/ros2_ws/build/robot_remote/CMakeFiles/rebuild_cache.dir
-/home/raz/projects/astroscale/ros2_ws/build/robot_remote/CMakeFiles/list_install_components.dir
-/home/raz/projects/astroscale/ros2_ws/build/robot_remote/CMakeFiles/install.dir
-/home/raz/projects/astroscale/ros2_ws/build/robot_remote/CMakeFiles/install/local.dir
-/home/raz/projects/astroscale/ros2_ws/build/robot_remote/CMakeFiles/install/strip.dir

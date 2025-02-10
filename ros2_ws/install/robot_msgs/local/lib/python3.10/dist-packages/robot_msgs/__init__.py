@@ -1,1 +1,0 @@
-/home/raz/projects/astroscale/ros2_ws/build/robot_msgs/rosidl_generator_py/robot_msgs/__init__.py

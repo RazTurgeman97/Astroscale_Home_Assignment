@@ -1,7 +1,7 @@
 set(_AMENT_PACKAGE_NAME "robot_controller")
 set(robot_controller_VERSION "0.0.0")
 set(robot_controller_MAINTAINER "raz <Raz.Turgeman97@gmail.com>")
-set(robot_controller_BUILD_DEPENDS "rclcpp" "rclpy" "trajectory_msgs" "sensor_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")
+set(robot_controller_BUILD_DEPENDS "moveit_core" "moveit_ros_planning_interface" "rclcpp" "rclpy" "trajectory_msgs" "sensor_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")
 set(robot_controller_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(robot_controller_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "trajectory_msgs" "sensor_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")
 set(robot_controller_BUILDTOOL_EXPORT_DEPENDS )

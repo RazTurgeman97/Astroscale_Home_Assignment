@@ -1,8 +1,8 @@
-# Install script for directory: /home/raz/projects/astroscale/ros2_ws/src/robot_controller
+# Install script for directory: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/raz/projects/astroscale/ros2_ws/install/robot_controller")
+  set(CMAKE_INSTALL_PREFIX "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_controller")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,42 +43,62 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/environment" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/environment" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/environment" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/environment" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/robot_controller-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_python/robot_controller/robot_controller.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/robot_controller-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_python/robot_controller/robot_controller.egg-info/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/robot_controller" TYPE DIRECTORY FILES "/home/raz/projects/astroscale/ros2_ws/src/robot_controller/robot_controller/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/robot_controller" TYPE DIRECTORY FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller/robot_controller/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/raz/projects/astroscale/ros2_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller"
+        "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_controller/local/lib/python3.10/dist-packages/robot_controller"
       )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/raz/projects/astroscale/ros2_ws/src/robot_controller/include")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller/include")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE DIRECTORY FILES
-    "/home/raz/projects/astroscale/ros2_ws/src/robot_controller/launch"
-    "/home/raz/projects/astroscale/ros2_ws/src/robot_controller/config"
+    "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller/launch"
+    "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller/config"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_controller" TYPE PROGRAM FILES "/home/raz/projects/astroscale/ros2_ws/src/robot_controller/robot_controller/slider_control.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_controller" TYPE PROGRAM FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller/robot_controller/slider_control.py")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_controller/slider_control" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_controller/slider_control")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_controller/slider_control"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_controller" TYPE EXECUTABLE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/slider_control")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_controller/slider_control" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_controller/slider_control")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_controller/slider_control"
+         OLD_RPATH "/opt/ros/humble/lib:/opt/ros/humble/lib/x86_64-linux-gnu:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/robot_controller/slider_control")
+    endif()
+  endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -86,15 +106,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/environment" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/environment" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_controller")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_controller")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -102,7 +122,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/environment" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/environment" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -110,50 +130,50 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/environment" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/environment" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_index/share/ament_index/resource_index/packages/robot_controller")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_index/share/ament_index/resource_index/packages/robot_controller")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/cmake" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/cmake" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/cmake" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/cmake" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller/cmake" TYPE FILE FILES
-    "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_core/robot_controllerConfig.cmake"
-    "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/ament_cmake_core/robot_controllerConfig-version.cmake"
+    "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_core/robot_controllerConfig.cmake"
+    "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/ament_cmake_core/robot_controllerConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/astroscale/ros2_ws/src/robot_controller/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_controller" TYPE FILE FILES "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -164,5 +184,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/raz/projects/astroscale/ros2_ws/build/robot_controller/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

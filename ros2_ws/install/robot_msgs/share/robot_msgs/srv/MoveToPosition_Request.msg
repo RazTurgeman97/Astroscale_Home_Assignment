@@ -1,1 +1,3 @@
-/home/raz/projects/astroscale/ros2_ws/build/robot_msgs/rosidl_cmake/srv/MoveToPosition_Request.msg
+# Request
+int64 forearm_position
+int64 hand_position

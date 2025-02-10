@@ -1,1 +1,4 @@
-/home/raz/projects/astroscale/ros2_ws/build/robot_msgs/ament_cmake_environment_hooks/local_setup.dsv
+source;share/robot_msgs/environment/ament_prefix_path.sh
+source;share/robot_msgs/environment/library_path.sh
+source;share/robot_msgs/environment/path.sh
+source;share/robot_msgs/environment/pythonpath.sh

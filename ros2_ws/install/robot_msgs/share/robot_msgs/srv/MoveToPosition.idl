@@ -1,1 +1,23 @@
-/home/raz/projects/astroscale/ros2_ws/build/robot_msgs/rosidl_adapter/robot_msgs/srv/MoveToPosition.idl
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robot_msgs/srv/MoveToPosition.srv
+// generated code does not contain a copyright notice
+
+
+module robot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct MoveToPosition_Request {
+      int64 forearm_position;
+
+      int64 hand_position;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct MoveToPosition_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

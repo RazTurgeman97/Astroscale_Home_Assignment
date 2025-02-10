@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raz/projects/astroscale/ros2_ws/src/robot_services
+CMAKE_SOURCE_DIR = /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_services
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raz/projects/astroscale/ros2_ws/build/robot_services
+CMAKE_BINARY_DIR = /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_services
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raz/projects/astroscale/ros2_ws/build/robot_services/CMakeFiles /home/raz/projects/astroscale/ros2_ws/build/robot_services//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_services/CMakeFiles /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_services//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raz/projects/astroscale/ros2_ws/build/robot_services/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_services/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

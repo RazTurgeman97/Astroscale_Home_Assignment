@@ -1,0 +1,272 @@
+[0.016s] Invoking command in '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/astroscale/ros2_ws/install/robot_bringup:/home/raz/projects/astroscale/ros2_ws/install/robot_services:/home/raz/projects/astroscale/ros2_ws/install/robot_msgs:/home/raz/projects/astroscale/ros2_ws/install/robot_moveit:/home/raz/projects/astroscale/ros2_ws/install/robot_controller:/home/raz/projects/astroscale/ros2_ws/install/robot_description:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_msgs -DCMAKE_INSTALL_PREFIX=/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs
+[0.271s] -- The C compiler identification is GNU 11.4.0
+[0.413s] -- The CXX compiler identification is GNU 11.4.0
+[0.522s] -- Detecting C compiler ABI info
+[0.754s] -- Detecting C compiler ABI info - done
+[0.766s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.777s] -- Detecting C compile features
+[0.784s] -- Detecting C compile features - done
+[0.803s] -- Detecting CXX compiler ABI info
+[0.960s] -- Detecting CXX compiler ABI info - done
+[0.978s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.978s] -- Detecting CXX compile features
+[0.979s] -- Detecting CXX compile features - done
+[1.009s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.139s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.266s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.311s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.325s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.343s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.433s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.789s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.590s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.590s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.590s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.590s]   the cmake_policy command to set the policy and suppress this warning.
+[2.590s] 
+[2.590s] Call Stack (most recent call first):
+[2.591s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.591s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.591s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.591s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.591s] [0m
+[2.609s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.611s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.612s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.612s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.612s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.612s]   the cmake_policy command to set the policy and suppress this warning.
+[2.612s] 
+[2.612s] Call Stack (most recent call first):
+[2.612s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.612s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.612s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.612s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.612s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.612s] [0m
+[2.631s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.631s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.631s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.632s]   the cmake_policy command to set the policy and suppress this warning.
+[2.632s] 
+[2.632s] Call Stack (most recent call first):
+[2.632s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.632s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.632s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.632s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[2.632s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.632s] [0m
+[2.639s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.639s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.639s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.639s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.658s] -- Found PythonExtra: .so  
+[2.697s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.720s] -- Added test 'lint_cmake' to check CMake code style
+[2.721s] -- Added test 'xmllint' to check XML markup files
+[2.724s] -- Configuring done (2.7s)
+[2.747s] -- Generating done (0.0s)
+[2.755s] -- Build files have been written to: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs
+[2.760s] Invoked command in '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/astroscale/ros2_ws/install/robot_bringup:/home/raz/projects/astroscale/ros2_ws/install/robot_services:/home/raz/projects/astroscale/ros2_ws/install/robot_msgs:/home/raz/projects/astroscale/ros2_ws/install/robot_moveit:/home/raz/projects/astroscale/ros2_ws/install/robot_controller:/home/raz/projects/astroscale/ros2_ws/install/robot_description:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_msgs -DCMAKE_INSTALL_PREFIX=/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs
+[2.762s] Invoking command in '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/astroscale/ros2_ws/install/robot_bringup:/home/raz/projects/astroscale/ros2_ws/install/robot_services:/home/raz/projects/astroscale/ros2_ws/install/robot_msgs:/home/raz/projects/astroscale/ros2_ws/install/robot_moveit:/home/raz/projects/astroscale/ros2_ws/install/robot_controller:/home/raz/projects/astroscale/ros2_ws/install/robot_description:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs -- -j12 -l12
+[2.771s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.773s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.774s] [  6%] Built target ament_cmake_python_copy_robot_msgs
+[2.979s] running egg_info
+[2.997s] creating robot_msgs.egg-info
+[2.998s] writing robot_msgs.egg-info/PKG-INFO
+[2.998s] writing dependency_links to robot_msgs.egg-info/dependency_links.txt
+[2.998s] writing top-level names to robot_msgs.egg-info/top_level.txt
+[2.998s] writing manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[3.058s] reading manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[3.059s] writing manifest file 'robot_msgs.egg-info/SOURCES.txt'
+[3.063s] [  6%] Built target robot_msgs__cpp
+[3.066s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.066s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.066s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.081s] [ 16%] Built target ament_cmake_python_build_robot_msgs_egg
+[3.085s] [ 19%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_c.dir/rosidl_generator_c/robot_msgs/srv/detail/move_to_position__functions.c.o[0m
+[3.296s] [ 22%] [32m[1mLinking C shared library librobot_msgs__rosidl_generator_c.so[0m
+[3.319s] [ 22%] Built target robot_msgs__rosidl_generator_c
+[3.321s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.321s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.321s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.454s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_msgs/srv/detail/move_to_position__type_support.cpp.o[0m
+[3.467s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_msgs/srv/move_to_position__type_support.cpp.o[0m
+[3.515s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_msgs/srv/detail/dds_fastrtps/move_to_position__type_support.cpp.o[0m
+[3.659s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_msgs/srv/move_to_position__type_support.cpp.o[0m
+[3.679s] [ 48%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_c.so[0m
+[3.680s] [ 51%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_msgs/srv/detail/move_to_position__type_support.c.o[0m
+[3.708s] [ 54%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_cpp.so[0m
+[3.710s] [ 54%] Built target robot_msgs__rosidl_typesupport_c
+[3.711s] [ 58%] [32m[1mLinking C shared library librobot_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.723s] [ 58%] Built target robot_msgs__rosidl_typesupport_introspection_c
+[3.728s] [ 61%] [32mBuilding CXX object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_msgs/srv/detail/move_to_position__type_support_c.cpp.o[0m
+[3.731s] [ 61%] Built target robot_msgs__rosidl_typesupport_cpp
+[3.759s] [ 64%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.797s] [ 64%] Built target robot_msgs__rosidl_typesupport_introspection_cpp
+[3.888s] [ 67%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.938s] [ 67%] Built target robot_msgs__rosidl_typesupport_fastrtps_cpp
+[4.002s] [ 70%] [32m[1mLinking CXX shared library librobot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.047s] [ 70%] Built target robot_msgs__rosidl_typesupport_fastrtps_c
+[4.052s] [ 70%] Built target robot_msgs
+[4.057s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.385s] [ 74%] Built target robot_msgs__py
+[4.390s] [ 77%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_generator_py.dir/rosidl_generator_py/robot_msgs/srv/_move_to_position_s.c.o[0m
+[4.471s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/librobot_msgs__rosidl_generator_py.so[0m
+[4.489s] [ 80%] Built target robot_msgs__rosidl_generator_py
+[4.494s] [ 87%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.495s] [ 87%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.495s] [ 90%] [32mBuilding C object CMakeFiles/robot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.562s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.564s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.564s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.577s] [100%] Built target robot_msgs__rosidl_typesupport_introspection_c__pyext
+[4.578s] [100%] Built target robot_msgs__rosidl_typesupport_c__pyext
+[4.579s] [100%] Built target robot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.582s] Invoked command in '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/astroscale/ros2_ws/install/robot_bringup:/home/raz/projects/astroscale/ros2_ws/install/robot_services:/home/raz/projects/astroscale/ros2_ws/install/robot_msgs:/home/raz/projects/astroscale/ros2_ws/install/robot_moveit:/home/raz/projects/astroscale/ros2_ws/install/robot_controller:/home/raz/projects/astroscale/ros2_ws/install/robot_description:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs -- -j12 -l12
+[4.583s] Invoking command in '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/astroscale/ros2_ws/install/robot_bringup:/home/raz/projects/astroscale/ros2_ws/install/robot_services:/home/raz/projects/astroscale/ros2_ws/install/robot_msgs:/home/raz/projects/astroscale/ros2_ws/install/robot_moveit:/home/raz/projects/astroscale/ros2_ws/install/robot_controller:/home/raz/projects/astroscale/ros2_ws/install/robot_description:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs
+[4.584s] -- Install configuration: ""
+[4.584s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/ament_index/resource_index/rosidl_interfaces/robot_msgs
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__type_support.h
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__struct.h
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__functions.c
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__functions.h
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/move_to_position.h
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/environment/library_path.sh
+[4.585s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/environment/library_path.dsv
+[4.586s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_generator_c.so
+[4.586s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_generator_c.so" to ""
+[4.586s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs
+[4.586s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[4.586s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[4.586s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__rosidl_typesupport_fastrtps_c.h
+[4.586s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[4.586s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.586s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so
+[4.586s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.586s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs
+[4.587s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[4.587s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[4.587s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__builder.hpp
+[4.587s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__traits.hpp
+[4.587s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__type_support.hpp
+[4.587s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__struct.hpp
+[4.587s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/move_to_position.hpp
+[4.587s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[4.587s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.587s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs
+[4.587s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[4.587s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[4.587s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/dds_fastrtps
+[4.587s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__rosidl_typesupport_fastrtps_cpp.hpp
+[4.587s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[4.588s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.588s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.588s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.588s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs
+[4.588s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[4.588s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[4.588s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__type_support.c
+[4.588s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__rosidl_typesupport_introspection_c.h
+[4.588s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg
+[4.588s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.588s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_c.so
+[4.588s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.588s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_c.so
+[4.589s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_c.so" to ""
+[4.589s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs
+[4.589s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv
+[4.589s] -- Up-to-date: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail
+[4.589s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__rosidl_typesupport_introspection_cpp.hpp
+[4.589s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/include/robot_msgs/robot_msgs/srv/detail/move_to_position__type_support.cpp
+[4.589s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so
+[4.589s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.589s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_cpp.so
+[4.590s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_typesupport_cpp.so" to ""
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/environment/pythonpath.sh
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/environment/pythonpath.dsv
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/__init__.py
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_move_to_position_s.c
+[4.590s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_move_to_position.py
+[4.591s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.591s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.591s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.591s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/__init__.py
+[4.591s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.591s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/librobot_msgs__rosidl_generator_py.so
+[4.591s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.591s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/_robot_msgs_s.ep.rosidl_typesupport_c.c
+[4.623s] Listing '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs'...
+[4.623s] Compiling '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/__init__.py'...
+[4.623s] Listing '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv'...
+[4.623s] Compiling '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/__init__.py'...
+[4.623s] Compiling '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/srv/_move_to_position.py'...
+[4.627s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.627s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.627s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.628s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.628s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.628s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/local/lib/python3.10/dist-packages/robot_msgs/robot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.628s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_generator_py.so
+[4.628s] -- Set runtime path of "/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/lib/librobot_msgs__rosidl_generator_py.so" to ""
+[4.628s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/srv/MoveToPosition.idl
+[4.628s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/srv/MoveToPosition.srv
+[4.628s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/srv/MoveToPosition_Request.msg
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/srv/MoveToPosition_Response.msg
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/ament_index/resource_index/package_run_dependencies/robot_msgs
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/ament_index/resource_index/parent_prefix_path/robot_msgs
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/environment/ament_prefix_path.sh
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/environment/ament_prefix_path.dsv
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/environment/path.sh
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/environment/path.dsv
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/local_setup.bash
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/local_setup.sh
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/local_setup.zsh
+[4.629s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/local_setup.dsv
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/package.dsv
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/ament_index/resource_index/packages/robot_msgs
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport.cmake
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_cppExport.cmake
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.630s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/export_robot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake-extras.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.631s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.632s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.632s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgsConfig.cmake
+[4.632s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/cmake/robot_msgsConfig-version.cmake
+[4.632s] -- Installing: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/install/robot_msgs/share/robot_msgs/package.xml
+[4.633s] Invoked command in '/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/astroscale/ros2_ws/install/robot_bringup:/home/raz/projects/astroscale/ros2_ws/install/robot_services:/home/raz/projects/astroscale/ros2_ws/install/robot_msgs:/home/raz/projects/astroscale/ros2_ws/install/robot_moveit:/home/raz/projects/astroscale/ros2_ws/install/robot_controller:/home/raz/projects/astroscale/ros2_ws/install/robot_description:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raz/projects/astroscale/ros2_ws/src/robot_controller
+CMAKE_SOURCE_DIR = /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raz/projects/astroscale/ros2_ws/build/robot_controller
+CMAKE_BINARY_DIR = /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller
 
 # Include any dependencies generated for this target.
 include CMakeFiles/slider_control.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/slider_control.dir/progress.make
 include CMakeFiles/slider_control.dir/flags.make
 
 CMakeFiles/slider_control.dir/src/slider_control.cpp.o: CMakeFiles/slider_control.dir/flags.make
-CMakeFiles/slider_control.dir/src/slider_control.cpp.o: /home/raz/projects/astroscale/ros2_ws/src/robot_controller/src/slider_control.cpp
+CMakeFiles/slider_control.dir/src/slider_control.cpp.o: /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller/src/slider_control.cpp
 CMakeFiles/slider_control.dir/src/slider_control.cpp.o: CMakeFiles/slider_control.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/raz/projects/astroscale/ros2_ws/build/robot_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slider_control.dir/src/slider_control.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slider_control.dir/src/slider_control.cpp.o -MF CMakeFiles/slider_control.dir/src/slider_control.cpp.o.d -o CMakeFiles/slider_control.dir/src/slider_control.cpp.o -c /home/raz/projects/astroscale/ros2_ws/src/robot_controller/src/slider_control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slider_control.dir/src/slider_control.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slider_control.dir/src/slider_control.cpp.o -MF CMakeFiles/slider_control.dir/src/slider_control.cpp.o.d -o CMakeFiles/slider_control.dir/src/slider_control.cpp.o -c /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller/src/slider_control.cpp
 
 CMakeFiles/slider_control.dir/src/slider_control.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/slider_control.dir/src/slider_control.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raz/projects/astroscale/ros2_ws/src/robot_controller/src/slider_control.cpp > CMakeFiles/slider_control.dir/src/slider_control.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller/src/slider_control.cpp > CMakeFiles/slider_control.dir/src/slider_control.cpp.i
 
 CMakeFiles/slider_control.dir/src/slider_control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/slider_control.dir/src/slider_control.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raz/projects/astroscale/ros2_ws/src/robot_controller/src/slider_control.cpp -o CMakeFiles/slider_control.dir/src/slider_control.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller/src/slider_control.cpp -o CMakeFiles/slider_control.dir/src/slider_control.cpp.s
 
 # Object files for target slider_control
 slider_control_OBJECTS = \
@@ -92,34 +92,167 @@ slider_control_EXTERNAL_OBJECTS =
 
 slider_control: CMakeFiles/slider_control.dir/src/slider_control.cpp.o
 slider_control: CMakeFiles/slider_control.dir/build.make
-slider_control: /opt/ros/humble/lib/librclcpp.so
-slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
-slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
-slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
-slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
-slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
-slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/libmoveit_move_group_interface.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_common_planning_interface_objects.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_planning_scene_interface.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_move_group_default_capabilities.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_move_group_capabilities_base.so.2.5.7
+slider_control: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/libstd_srvs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/libstd_srvs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libmoveit_warehouse.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_constraint_sampler_manager_loader.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_plan_execution.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_default_planning_request_adapter_plugins.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_cpp.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_planning_pipeline.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_trajectory_execution_manager.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_planning_scene_monitor.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_robot_model_loader.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_kinematics_plugin_loader.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_rdf_loader.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_collision_plugin_loader.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_ros_occupancy_map_monitor.so.2.5.7
+slider_control: /opt/ros/humble/lib/libcollision_detector_bullet_plugin.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_butterworth_filter.so.2.5.7
+slider_control: /opt/ros/humble/lib/librclcpp_lifecycle.so
+slider_control: /opt/ros/humble/lib/librcl_lifecycle.so
+slider_control: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/librsl.so
+slider_control: /opt/ros/humble/lib/libmoveit_collision_distance_field.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_collision_detection_bullet.so.2.5.7
+slider_control: /usr/lib/x86_64-linux-gnu/libBulletDynamics.so
+slider_control: /usr/lib/x86_64-linux-gnu/libBulletCollision.so
+slider_control: /usr/lib/x86_64-linux-gnu/libLinearMath.so
+slider_control: /usr/lib/x86_64-linux-gnu/libBulletSoftBody.so
+slider_control: /opt/ros/humble/lib/libmoveit_dynamics_solver.so.2.5.7
+slider_control: /opt/ros/humble/lib/libkdl_parser.so
+slider_control: /opt/ros/humble/lib/libmoveit_constraint_samplers.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_distance_field.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_kinematics_metrics.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_planning_interface.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_planning_request_adapter.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_planning_scene.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_kinematic_constraints.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_collision_detection_fcl.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_collision_detection.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_smoothing_base.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_test_utils.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_trajectory_processing.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_robot_trajectory.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_robot_state.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_robot_model.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_exceptions.so.2.5.7
+slider_control: /opt/ros/humble/lib/libmoveit_kinematics_base.so
+slider_control: /opt/ros/humble/lib/libsrdfdom.so.2.0.5
+slider_control: /opt/ros/humble/lib/liburdf.so
+slider_control: /opt/ros/humble/lib/x86_64-linux-gnu/libruckig.so
+slider_control: /opt/ros/humble/lib/libmoveit_transforms.so.2.5.7
+slider_control: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_sensor.so.3.0
+slider_control: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model_state.so.3.0
+slider_control: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_model.so.3.0
+slider_control: /opt/ros/humble/lib/x86_64-linux-gnu/liburdfdom_world.so.3.0
+slider_control: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+slider_control: /opt/ros/humble/lib/libmoveit_utils.so.2.5.7
+slider_control: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
+slider_control: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
+slider_control: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
+slider_control: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.74.0
+slider_control: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0
+slider_control: /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.74.0
+slider_control: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
+slider_control: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0
+slider_control: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0
+slider_control: /opt/ros/humble/lib/libgeometric_shapes.so.2.3.1
+slider_control: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
+slider_control: /usr/lib/x86_64-linux-gnu/libfcl.so.0.7.0
+slider_control: /usr/lib/x86_64-linux-gnu/libccd.so
+slider_control: /usr/lib/x86_64-linux-gnu/libm.so
+slider_control: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomap.so.1.9.8
+slider_control: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so.1.9.8
+slider_control: /opt/ros/humble/lib/libresource_retriever.so
+slider_control: /usr/lib/x86_64-linux-gnu/libcurl.so
+slider_control: /opt/ros/humble/lib/librandom_numbers.so
+slider_control: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomap.so
+slider_control: /opt/ros/humble/lib/x86_64-linux-gnu/liboctomath.so
+slider_control: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
+slider_control: /opt/ros/humble/lib/libmoveit_msgs__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/libobject_recognition_msgs__rosidl_typesupport_fastrtps_c.so
 slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
-slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/libmoveit_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/liboctomap_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libobject_recognition_msgs__rosidl_typesupport_introspection_c.so
 slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libmoveit_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libobject_recognition_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libmoveit_msgs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/liboctomap_msgs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/libobject_recognition_msgs__rosidl_typesupport_introspection_cpp.so
 slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/libmoveit_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/liboctomap_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libobject_recognition_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libshape_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libmoveit_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/liboctomap_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/libmoveit_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/liboctomap_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/libmoveit_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/liboctomap_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libobject_recognition_msgs__rosidl_generator_py.so
 slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/libshape_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/libobject_recognition_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/libshape_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/libobject_recognition_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libshape_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libwarehouse_ros.so
+slider_control: /opt/ros/humble/lib/libclass_loader.so
+slider_control: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+slider_control: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+slider_control: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
+slider_control: /opt/ros/humble/lib/libtf2_ros.so
+slider_control: /opt/ros/humble/lib/libmessage_filters.so
+slider_control: /opt/ros/humble/lib/librclcpp_action.so
+slider_control: /opt/ros/humble/lib/librclcpp.so
 slider_control: /opt/ros/humble/lib/liblibstatistics_collector.so
-slider_control: /opt/ros/humble/lib/librcl.so
-slider_control: /opt/ros/humble/lib/librmw_implementation.so
-slider_control: /opt/ros/humble/lib/libament_index_cpp.so
-slider_control: /opt/ros/humble/lib/librcl_logging_spdlog.so
-slider_control: /opt/ros/humble/lib/librcl_logging_interface.so
-slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
-slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
-slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
-slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
-slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
-slider_control: /opt/ros/humble/lib/librcl_yaml_param_parser.so
-slider_control: /opt/ros/humble/lib/libyaml.so
 slider_control: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
 slider_control: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
 slider_control: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
@@ -136,50 +269,89 @@ slider_control: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.s
 slider_control: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
 slider_control: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
 slider_control: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/librcl_action.so
+slider_control: /opt/ros/humble/lib/librcl.so
+slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/librcl_yaml_param_parser.so
+slider_control: /opt/ros/humble/lib/libyaml.so
 slider_control: /opt/ros/humble/lib/libtracetools.so
-slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_typesupport_c.so
-slider_control: /opt/ros/humble/lib/libtrajectory_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/librmw_implementation.so
+slider_control: /opt/ros/humble/lib/libament_index_cpp.so
+slider_control: /opt/ros/humble/lib/librcl_logging_spdlog.so
+slider_control: /opt/ros/humble/lib/librcl_logging_interface.so
+slider_control: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
+slider_control: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+slider_control: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+slider_control: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
+slider_control: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+slider_control: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libtf2.so
 slider_control: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 slider_control: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+slider_control: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 slider_control: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
 slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 slider_control: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-slider_control: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 slider_control: /opt/ros/humble/lib/librmw.so
-slider_control: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+slider_control: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 slider_control: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 slider_control: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 slider_control: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+slider_control: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 slider_control: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 slider_control: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 slider_control: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+slider_control: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
-slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-slider_control: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-slider_control: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-slider_control: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-slider_control: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 slider_control: /opt/ros/humble/lib/librosidl_typesupport_c.so
 slider_control: /opt/ros/humble/lib/librcpputils.so
+slider_control: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+slider_control: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 slider_control: /opt/ros/humble/lib/librosidl_runtime_c.so
 slider_control: /opt/ros/humble/lib/librcutils.so
+slider_control: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+slider_control: /usr/lib/x86_64-linux-gnu/libcrypto.so
 slider_control: CMakeFiles/slider_control.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/raz/projects/astroscale/ros2_ws/build/robot_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable slider_control"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable slider_control"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slider_control.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +363,6 @@ CMakeFiles/slider_control.dir/clean:
 .PHONY : CMakeFiles/slider_control.dir/clean
 
 CMakeFiles/slider_control.dir/depend:
-	cd /home/raz/projects/astroscale/ros2_ws/build/robot_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raz/projects/astroscale/ros2_ws/src/robot_controller /home/raz/projects/astroscale/ros2_ws/src/robot_controller /home/raz/projects/astroscale/ros2_ws/build/robot_controller /home/raz/projects/astroscale/ros2_ws/build/robot_controller /home/raz/projects/astroscale/ros2_ws/build/robot_controller/CMakeFiles/slider_control.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/src/robot_controller /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller /home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_controller/CMakeFiles/slider_control.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/slider_control.dir/depend
 

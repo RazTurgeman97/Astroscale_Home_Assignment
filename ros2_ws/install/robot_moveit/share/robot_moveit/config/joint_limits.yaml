@@ -1,1 +1,14 @@
-/home/raz/projects/astroscale/ros2_ws/src/robot_moveit/config/joint_limits.yaml
+default_velocity_scaling_factor: 0.1
+default_acceleration_scaling_factor: 0.1
+
+joint_limits:
+  joint1:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+  joint2:
+    has_velocity_limits: true
+    max_velocity: 10.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0

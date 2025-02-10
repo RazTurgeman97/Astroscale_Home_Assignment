@@ -27,6 +27,7 @@ _colcon_prefix_chain_powershell_source_script "/home/raz/projects/ros2_robotics_
 _colcon_prefix_chain_powershell_source_script "/home/raz/ros2_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/raz/projects/manipulator-project/arduinobot_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/raz/projects/ros2_advanced_concepts/ros2_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/raz/projects/astroscale/ros2_ws/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

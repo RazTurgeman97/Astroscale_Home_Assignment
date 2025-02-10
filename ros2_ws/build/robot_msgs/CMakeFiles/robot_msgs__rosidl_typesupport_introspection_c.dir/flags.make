@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROSIDL_TYPESUPPORT_INTROSPECTION_C_BUILDING_DLL_robot_msgs -DROS_PACKAGE_NAME=\"robot_msgs\"
 
-C_INCLUDES = -I/home/raz/projects/astroscale/ros2_ws/build/robot_msgs/rosidl_typesupport_introspection_c -I/home/raz/projects/astroscale/ros2_ws/build/robot_msgs/rosidl_generator_c -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
+C_INCLUDES = -I/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs/rosidl_typesupport_introspection_c -I/home/raz/projects/Astroscale_Home_Assignment/ros2_ws/build/robot_msgs/rosidl_generator_c -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/rosidl_typesupport_introspection_c
 
 C_FLAGS = -std=gnu11 -fPIC -Wall
 

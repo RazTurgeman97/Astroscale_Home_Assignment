@@ -1,1 +1,3 @@
-/home/raz/projects/astroscale/ros2_ws/src/robot_moveit/config/initial_positions.yaml
+initial_position:
+  joint1: 0
+  joint2: 0

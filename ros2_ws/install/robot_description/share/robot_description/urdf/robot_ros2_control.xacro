@@ -1,1 +1,30 @@
-/home/raz/projects/astroscale/ros2_ws/src/robot_description/urdf/robot_ros2_control.xacro
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="manipulator">
+
+    <ros2_control name="RobotSystem" type="system">
+
+        <!-- ros2 control Gazebo -->
+
+        <hardware>
+            <plugin>ign_ros2_control/IgnitionSystem</plugin>
+        </hardware>
+
+        <joint name="joint1">
+            <command_interface name="position">
+            <param name="min">-${PI}</param>
+            <param name="max">${PI}</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="joint2">
+            <command_interface name="position">
+            <param name="min">-${PI / 2.0}</param>
+            <param name="max">${PI / 2.0}</param>
+            </command_interface >
+            <state_interface name="position"/>
+        </joint>
+
+    </ros2_control>
+
+</robot>

@@ -1,1 +1,4 @@
-/home/raz/projects/astroscale/ros2_ws/build/robot_msgs/rosidl_cmake/srv/MoveToPosition_Response.msg
+
+# Response
+bool success
+string message
