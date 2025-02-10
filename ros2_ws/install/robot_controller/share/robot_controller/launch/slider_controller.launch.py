@@ -28,7 +28,7 @@ def generate_launch_description():
 
     slider_control_node = Node(
         package="robot_controller",
-        executable="slider_control.py"
+        executable="slider_control"
     )
 
     return LaunchDescription(
