@@ -13,13 +13,13 @@ The project consists of the following components:
 
 ---
 
-## Demonstration Videos
+## Demonstration GIFs
 
 ### Command Control Interface
-[![Watch the video](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/command_thumbnail.png)](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/command_cintrol.webm)
+![Command Control](assets/command_control.gif)
 
 ### Slider Control Interface
-[![Watch the video](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/slider_thumbnail.png)](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/slider_control.webm)
+![Slider Control](assets/slider_control.gif)
 
 ---
 
