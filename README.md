@@ -16,10 +16,10 @@ The project consists of the following components:
 ## Demonstration Videos
 
 ### Command Control Interface
-<iframe src="https://player.vimeo.com/video/1055390207?h=f5273a82e3" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+[![Watch the video](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/command_thumbnail.png)](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/command_cintrol.webm)
 
 ### Slider Control Interface
-<iframe src="https://player.vimeo.com/video/1055390179?h=a9cf578b10" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+[![Watch the video](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/slider_thumbnail.png)](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/slider_control.webm)
 
 ---
 
