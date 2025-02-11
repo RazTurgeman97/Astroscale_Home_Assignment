@@ -23,6 +23,25 @@ The project consists of the following components:
 
 ---
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Demonstration GIFs](#demonstration-gifs)
+- [Workspace Configuration](#workspace-configuration)
+  - [Dependencies](#dependencies)
+  - [Installation](#installation)
+- [Architecture](#architecture)
+  - [URDF/XACRO Model](#urdfxacro-model)
+  - [MoveIt 2 Configuration](#moveit-2-configuration)
+  - [Services](#services)
+- [Launching the System](#launching-the-system)
+- [Usage](#usage)
+  - [Using the Service Server and Client](#using-the-service-server-and-client)
+  - [Using the Slider Control Interface](#using-the-slider-control-interface)
+- [Repository Structure](#repository-structure)
+- [Key Features](#key-features)
+
+---
+
 ## Workspace Configuration
 
 ### Dependencies
