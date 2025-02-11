@@ -2,6 +2,10 @@
 
 This repository contains a ROS 2 Humble package for a 2-DOF manipulator. The project was developed as a home assignment for Astroscale. It uses the MoveIt 2 API to implement a service for moving the manipulator to a specified position using Inverse Kinematics (IK).
 
+**Check out my other manipulator project!**  
+👉 [ArduinoBot Manipulator Project](https://github.com/RazTurgeman97/manipulator-project)  
+*A ROS2-based robotic arm with Arduino integration for hardware control.*  
+
 ## Project Overview
 
 The project consists of the following components:
