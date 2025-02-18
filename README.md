@@ -2,6 +2,10 @@
 
 This repository contains a ROS 2 Humble package for a 2-DOF manipulator. The project was developed as a home assignment for Astroscale. It uses the MoveIt 2 API to implement a service for moving the manipulator to a specified position using Inverse Kinematics (IK).
 
+**Check out my other manipulator project!**  
+👉 [ArduinoBot Manipulator Project](https://github.com/RazTurgeman97/manipulator-project)  
+*A ROS2-based robotic arm with Arduino integration for hardware control.*  
+
 ## Project Overview
 
 The project consists of the following components:
@@ -13,13 +17,32 @@ The project consists of the following components:
 
 ---
 
-## Demonstration Videos
+## Demonstration GIFs
 
 ### Command Control Interface
-[![Watch the video](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/command_thumbnail.png)](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/command_cintrol.webm)
+![Command Control](assets/command_control.gif)
 
 ### Slider Control Interface
-[![Watch the video](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/slider_thumbnail.png)](https://raw.githubusercontent.com/RazTurgeman97/Astroscale_Home_Assignment/main/assets/slider_control.webm)
+![Slider Control](assets/slider_control.gif)
+
+---
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Demonstration GIFs](#demonstration-gifs)
+- [Workspace Configuration](#workspace-configuration)
+  - [Dependencies](#dependencies)
+  - [Installation](#installation)
+- [Architecture](#architecture)
+  - [URDF/XACRO Model](#urdfxacro-model)
+  - [MoveIt 2 Configuration](#moveit-2-configuration)
+  - [Services](#services)
+- [Launching the System](#launching-the-system)
+- [Usage](#usage)
+  - [Using the Service Server and Client](#using-the-service-server-and-client)
+  - [Using the Slider Control Interface](#using-the-slider-control-interface)
+- [Repository Structure](#repository-structure)
+- [Key Features](#key-features)
 
 ---
 
