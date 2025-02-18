@@ -41,6 +41,7 @@ The project consists of the following components:
 - [Usage](#usage)
   - [Using the Service Server and Client](#using-the-service-server-and-client)
   - [Using the Slider Control Interface](#using-the-slider-control-interface)
+- [Docker Usage](#docker-usage)
 - [Repository Structure](#repository-structure)
 - [Key Features](#key-features)
 
@@ -151,6 +152,36 @@ Once the slider control interface is running, you can control the manipulator jo
 ```bash
 ros2 launch robot_bringup slider_control_simulation.launch.py
 ```
+
+---
+
+## Docker Usage (optional)
+
+For easier setup and development, you can also run the project in a Docker container with all dependencies pre-installed.
+
+### Build the Docker Image
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/RazTurgeman97/Astroscale_Home_Assignment.git
+   cd Astroscale_Home_Assignment
+   ```
+2. **Build the Docker image**:
+   ```bash
+   docker build -t astroscale-ros2-manipulator .
+   ```
+
+### Run the Docker Container
+
+Once the image is built, run the container with:
+```bash
+docker run -it --rm astroscale-ros2-manipulator
+```
+This command starts the container and opens a bash shell. All ROS 2 and MoveIt 2 packages are pre-installed, and the ROS 2 workspace is ready for use.
+
+### Running the ROS 2 Workspace in Docker
+
+After entering the container, follow [Usage](#usage) instructions.
 
 ---
 
