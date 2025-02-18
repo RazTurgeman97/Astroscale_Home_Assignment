@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  ros2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ros2_humble_container
+    privileged: true  # Gives access to devices
+    network_mode: "host"  # Enables ROS 2 communication
+    environment:
+      - DISPLAY=${DISPLAY}  # Enables GUI applications
+    volumes:
+      - /dev:/dev  # Gives access to host devices (e.g., serial ports)
+      - /tmp/.X11-unix:/tmp/.X11-unix  # Enables GUI applications
+    stdin_open: true  # Keeps the container interactive
+    tty: true  # Allows opening a shell inside the container
