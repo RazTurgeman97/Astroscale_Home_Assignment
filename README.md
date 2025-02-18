@@ -58,8 +58,9 @@ The project consists of the following components:
 ### Installation
 1. Clone this repository and install requirements:
    ```bash
-   git clone https://github.com/RazTurgeman97/Astroscale_Home_Assignment.git ros2_ws/src/Astroscale_Home_Assignment
+   git clone https://github.com/RazTurgeman97/Astroscale_Home_Assignment.git
    cd Astroscale_Home_Assignment
+   sudo apt-get update
    xargs sudo apt install -y < requirements.txt
    ```
 2. Build the workspace and source it:
