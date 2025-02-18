@@ -56,7 +56,7 @@ The project consists of the following components:
 - **ros2_control**
 
 ### Installation
-1. Clone this repository:
+1. Clone this repository and install requirements:
    ```bash
    git clone https://github.com/RazTurgeman97/Astroscale_Home_Assignment.git ros2_ws/src/Astroscale_Home_Assignment
    cd Astroscale_Home_Assignment
