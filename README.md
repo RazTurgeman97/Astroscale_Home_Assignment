@@ -59,10 +59,12 @@ The project consists of the following components:
 1. Clone this repository:
    ```bash
    git clone https://github.com/RazTurgeman97/Astroscale_Home_Assignment.git ros2_ws/src/Astroscale_Home_Assignment
-   cd ros2_ws
+   cd Astroscale_Home_Assignment
+   xargs sudo apt install -y < requirements.txt
    ```
 2. Build the workspace and source it:
    ```bash
+   cd ros2_ws
    colcon build
    source install/setup.bash
    ```
