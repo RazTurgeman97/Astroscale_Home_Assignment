@@ -65,6 +65,7 @@ The project consists of the following components:
 2. Build the workspace and source it:
    ```bash
    cd ros2_ws
+   rm -rf log build install
    colcon build
    source install/setup.bash
    ```
