@@ -157,6 +157,14 @@ ros2 launch robot_bringup slider_control_simulation.launch.py
 
 ## Docker Usage (optional)
 
+first, allow the container to use the host's display.
+
+Run this on your host system:
+
+```bash
+xhost +local:
+```
+
 For easier setup and development, you can also run the project in a Docker container with all dependencies pre-installed.
 
 ### Build the Docker Image
