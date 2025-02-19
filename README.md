@@ -41,6 +41,7 @@ The project consists of the following components:
 - [Usage](#usage)
   - [Using the Service Server and Client](#using-the-service-server-and-client)
   - [Using the Slider Control Interface](#using-the-slider-control-interface)
+- [Docker Usage](#docker-usage)
 - [Repository Structure](#repository-structure)
 - [Key Features](#key-features)
 
@@ -151,6 +152,62 @@ Once the slider control interface is running, you can control the manipulator jo
 ```bash
 ros2 launch robot_bringup slider_control_simulation.launch.py
 ```
+
+---
+
+## Docker Usage (optional)
+
+first, allow the container to use the host's display.
+
+Run this on your host system:
+
+```bash
+xhost +local:
+```
+
+For easier setup and development, you can also run the project in a Docker container with all dependencies pre-installed.
+
+### Build the Docker Image
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/RazTurgeman97/Astroscale_Home_Assignment.git
+   cd Astroscale_Home_Assignment
+   ```
+2. **Build the Docker image**:
+   ```bash
+   docker build -t astroscale-ros2-manipulator .
+   ```
+
+### Run the Docker Container
+
+Once the image is built, run the container with:
+```bash
+docker run -it --rm astroscale-ros2-manipulator
+```
+This command starts the container and opens a bash shell. All ROS 2 and MoveIt 2 packages are pre-installed, and the ROS 2 workspace is ready for use.
+
+### Running the ROS 2 Workspace in Docker
+
+After entering the container, follow [Usage](#usage) instructions.
+
+### Visual Studio Code Dev Containers Setup
+
+For a smoother development experience inside the container, install the **Dev Containers** extension for VS Code.
+
+#### Installation Steps:
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking the Extensions icon on the Activity Bar (or press `Ctrl+Shift+X`).
+3. In the search bar, type **"Dev Containers"**.
+4. Select the extension **"Dev Containers"** by Microsoft and click **Install**.
+
+#### Using Dev Containers:
+Once the extension is installed, VS Code will prompt you to reopen the project in a container as soon as you open the projects directory (inside VS Code). If not:
+- Press `F1` and select **"Dev Containers: Reopen in Container"**.
+- VS Code will build and connect to the container automatically using the configuration provided in the `.devcontainer` folder.
+
+This setup allows you to work seamlessly with the ROS2 environment inside the Docker container.
+
 
 ---
 
